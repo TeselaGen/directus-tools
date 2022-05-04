@@ -1,0 +1,4 @@
+
+
+Custom Dynamic Variables
+https://github.com/directus/directus/discussions/9930
