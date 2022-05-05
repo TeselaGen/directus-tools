@@ -1,3 +1,1 @@
-const ext = require("./dist");
-
-module.exports = ext;
+"use strict";var e=({filter:e,action:o})=>{e("items.create",(e=>{console.log("Creating an Item in Directus 9!"),console.log(e),function(e){e&&e.name&&e.name.toUpperCase&&(e.name=e.name.toLowerCase())}(e)})),o("items.create",(e=>{console.log("Item created!"),console.log(e)})),o("items.read",(e=>{console.log("Collection read "+(null==e?void 0:e.collection))}))};module.exports=e;
